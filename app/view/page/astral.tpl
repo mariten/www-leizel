@@ -92,9 +92,10 @@
                     <h2>Around the Web</h2>
                 </header>
                 <p>I can also be found at the below web services</p>
-                <ul>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="#">Twitter</a></li>
+                <ul class="web-icons">
+{foreach from=$personal_web_links item=web_link}
+                    <li class="icon {$web_link.glyph}"><a href="{$web_link.url}">{$web_link.display}</a></li>
+{/foreach}
                 </ul>
 
             </article>
