@@ -21,7 +21,7 @@
 
     <!-- Wrapper-->
     <div id="wrapper">
-        
+
         <!-- Nav -->
         <nav id="nav">
             <a href="#me" class="icon fa-home active"><span>Home</span></a>
@@ -32,7 +32,7 @@
 
         <!-- Main -->
         <div id="main">
-            
+
             <!-- Me -->
             <article id="me" class="panel">
                 <header>
@@ -44,25 +44,29 @@
                 </header>
                 <a href="#work" class="jumplink pic">
                     <span class="arrow icon fa-chevron-right"><span>See my work</span></span>
-                    <img src="images/leizel_loc.jpg" alt="Me" />
+                    <img src="images/leizel.jpg" alt="Me" />
                 </a>
             </article>
 
 
-            <!-- Work --> 
+            <!-- Work -->
             <article id="work" class="panel">
 
                 <header>
                     <h2>My Work</h2>
                 </header>
 
-                <p>Some of my work during my time at the University of Washington</p>
+                <p>I am a motivated and enthusiastic MLIS candidate (June 2015) with an interest in special libraries, archives, information behavior and cataloging. I have experience in archives, teaching, writing, public speaking, working with geographically dispersed teammates and intercultural communication.  Please see below for examples of some of my work.</p>
 
-                <h3><a href="#">Online Dating as an Information Problem</a></h3>
-                <p>A paper I wrote during my Online Dating course that describes how showing users of online dating sites the best potential matches is an information problem.</p>
+                <h3><a href="https://circulationmag.wordpress.com/current-issue/">Boundless Love, Endless Possibilities</a></h3>
+                <p>A paper I wrote for a class about why online dating is an information problem.  It was published in the academic edition of <i>Circulation</i>, the iSchool's student magazine.</p>
 
-                <h3><a href="#">Archiving at the San Francisco Zen Center</a></h3>
-                <p>I spent a month during Summer 2014 working as an information intern at the San Francisco Zen Center.  We worked with the Bancroft Library at UC Berkeley to archive and digitize the Center's historical documents.</p>
+                <h3><a href="https://ischool.uw.edu/feature-stories/san-francisco-zen-center-project-turns-five">Archiving at the San Francisco Zen Center</a></h3>
+                <p>I spent a month during Summer 2014 working as an archives intern at the San Francisco Zen Center with nine other UW students.  Our goal was to archive and digitize the Zen Center's historical documents.  We worked with the Bancroft Library at UC Berkeley where the Zen Center Collection will be housed.  To gain a better understanding of the organization, we lived and worked with the Zen Center community and followed Zen Buddhist practices.</p>
+                <p>Further writing describing this program can be found on the <a href="http://blogs.sfzc.org/blog/2014/08/12/warm-present-history-archivists-tribute/">San Francisco Zen Center blog</a></p>
+
+                <h3>More Information</h3>
+                <p>For further details about my career and history, please see my <a href="{$personal_web_links.linkedin.url}">LinkedIn profile</a>.</p>
 
             </article>
 
@@ -74,18 +78,20 @@
                     <h2>About Me</h2>
                 </header>
 
-                <p>I'm from Northeast Ohio.  I live in Tokyo.  I like cats (and cupcakes).</p>
+                <p>A native of Northeast Ohio, I graduated cum laude from Kent State University with a BA in International Relations.  After graduation, I headed to Japan on the JET Program and started working as an English teacher in Suzuka, Japan at a high school with a multinational student body. It was an invaluable experience, and I loved working with students and living in another culture.  However, my lifelong love of knowledge and books led me to embark on the path to library and information science.  With my MLIS, I hope to find a career that will combine my love of research, learning and sharing information.</p>
+
+                <p>Currently, I live in Tokyo working part-time as an English teacher in junior high schools around the city while pursuing my MLIS through the University of Washington.  In my free time,  I enjoy traveling and exploring new places, cooking, watching movies, and relaxing in cafés.  I'm a voracious reader, but especially love sci-fi, fantasy and young adult fiction.  True to the librarian stereotype, I love cats and sometimes wear my hair in a bun.</p>
 
                 <section>
                     <div class="row">
                         <div class="4u">
-                            <a class="image fit" href="#"><img src="https://farm8.staticflickr.com/7567/15574928173_4047e8455e.jpg" alt=""></a>
+                            <a class="image fit" target="_blank" href="https://www.flickr.com/photos/mariten/15574928173"><img src="https://farm8.staticflickr.com/7567/15574928173_4047e8455e.jpg" alt="Towpath Trail in Clinton, Ohio" title="Towpath Trail in Clinton, Ohio"></a>
                         </div>
                         <div class="4u">
-                            <a class="image fit" href="#"><img src="https://farm4.staticflickr.com/3866/14240565138_5bb08fcd46.jpg" alt=""></a>
+                            <a class="image fit" target="_blank" href="https://www.flickr.com/photos/mariten/14240565138"><img src="https://farm4.staticflickr.com/3866/14240565138_5bb08fcd46.jpg" alt="Rikugien, a Japanese garden in central Tokyo" title="Rikugien, a Japanese garden in central Tokyo"></a>
                         </div>
                         <div class="4u">
-                            <a class="image fit" href="#"><img src="https://farm5.staticflickr.com/4090/5209485886_a06d0efe89.jpg" alt=""></a>
+                            <a class="image fit" target="_blank" href="https://www.flickr.com/photos/mariten/5209485886"><img src="https://farm5.staticflickr.com/4090/5209485886_a06d0efe89.jpg" alt="My neighborhood cat friend" title="My neighborhood cat friend"></a>
                         </div>
                     </div>
                 </section>
@@ -99,7 +105,7 @@
                 <header>
                     <h2>Contact Me</h2>
                 </header>
-                <p>Please feel free to contact me at <a href="leizel.case@gmail.com">leizel.case@gmail.com</a>
+                <p>Please feel free to contact me at <a href="mailto:leizel.case@gmail.com">leizel.case@gmail.com</a>
 
 
                 <header>
@@ -115,14 +121,14 @@
             </article>
 
         </div>
-    
+
         <!-- Footer -->
         <div id="footer">
             <ul class="copyright">
                 <li>&copy; Leizel Jackson Case</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
             </ul>
         </div>
-    
+
     </div>
 
 </body>

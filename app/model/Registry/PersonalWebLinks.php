@@ -6,13 +6,13 @@ class Registry_PersonalWebLinks
 
         'linkedin' => array(
             'glyph'    => 'fa-linkedin',
-            'display'  => 'LinkedIn',
+            'display'  => 'Leizel Jackson Case',
             'url'      => 'https://www.linkedin.com/pub/leizel-jackson-case/4b/a5a/2a9',
         ),
 
         'twitter' => array(
             'glyph'    => 'fa-twitter',
-            'display'  => 'Twitter',
+            'display'  => '@3koneko3',
             'url'      => 'https://twitter.com/3koneko3/',
         ),
     );
