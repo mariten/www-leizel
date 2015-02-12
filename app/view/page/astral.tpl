@@ -74,7 +74,21 @@
                     <h2>About Me</h2>
                 </header>
 
-                <p>I'm from Northeast Ohio.  I live in Tokyo.  I like cats.</p>
+                <p>I'm from Northeast Ohio.  I live in Tokyo.  I like cats (and cupcakes).</p>
+
+                <section>
+                    <div class="row">
+                        <div class="4u">
+                            <a class="image fit" href="#"><img src="https://farm8.staticflickr.com/7567/15574928173_4047e8455e.jpg" alt=""></a>
+                        </div>
+                        <div class="4u">
+                            <a class="image fit" href="#"><img src="https://farm4.staticflickr.com/3866/14240565138_5bb08fcd46.jpg" alt=""></a>
+                        </div>
+                        <div class="4u">
+                            <a class="image fit" href="#"><img src="https://farm5.staticflickr.com/4090/5209485886_a06d0efe89.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </section>
 
             </article>
 
