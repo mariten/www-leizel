@@ -4,7 +4,12 @@
     <title>Leizel Jackson Case</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="Aspiring Information Professional" />
-    <meta name="keywords" content="" />
+    <meta property="og:title"        content="Leizel Jackson Case" />
+    <meta property="og:description"  content="Aspiring Information Professional" />
+    <meta property="og:image"        content="{$smarty.const.LEIZEL_DOMAIN_CANONICAL}/images/leizel.jpg" />
+    <meta property="og:url"          content="{$smarty.const.LEIZEL_DOMAIN_CANONICAL}" />
+    <link rel="canonical"            href="{$smarty.const.LEIZEL_DOMAIN_CANONICAL}" />
+
     <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
     <script src="js/jquery.min.js"></script>
     <script src="js/skel.min.js"></script>
