@@ -68,7 +68,7 @@
 
                 <h3><a href="https://ischool.uw.edu/feature-stories/san-francisco-zen-center-project-turns-five">Archiving at the San Francisco Zen Center</a></h3>
                 <p>I spent a month during Summer 2014 working as an archives intern at the San Francisco Zen Center with nine other UW students.  Our goal was to archive and digitize the Zen Center's historical documents.  We worked with the Bancroft Library at UC Berkeley where the Zen Center Collection will be housed.  To gain a better understanding of the organization, we lived and worked with the Zen Center community and followed Zen Buddhist practices.</p>
-                <p>Further writing describing this program can be found on the <a href="http://blogs.sfzc.org/blog/2014/08/12/warm-present-history-archivists-tribute/">San Francisco Zen Center blog</a></p>
+                <p>Additional coverage of this program can be found on the <a href="http://blogs.sfzc.org/blog/2014/08/12/warm-present-history-archivists-tribute/">San Francisco Zen Center blog</a></p>
 
                 <h3>More Information</h3>
                 <p>For further details about my career and history, please see my <a href="{$personal_web_links.linkedin.url}">LinkedIn profile</a>.</p>
@@ -116,7 +116,7 @@
                 <header>
                     <h2>Around the Web</h2>
                 </header>
-                <p>I can also be found at the below web services</p>
+                <p>I can also be found at the web services below</p>
                 <ul class="web-icons">
 {foreach from=$personal_web_links item=web_link}
                     <li class="icon {$web_link.glyph}"><a href="{$web_link.url}">{$web_link.display}</a></li>
