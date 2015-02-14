@@ -63,8 +63,8 @@
 
                 <p>I am a motivated and enthusiastic MLIS candidate (June 2015) with an interest in special libraries, archives, information behavior and cataloging. I have experience in archives, teaching, writing, public speaking, working with geographically dispersed teammates and intercultural communication.  Please see below for examples of some of my work.</p>
 
-                <h3><a href="https://circulationmag.wordpress.com/current-issue/">Boundless Love, Endless Possibilities</a></h3>
-                <p>A paper I wrote for a class about why online dating is an information problem.  It was published in the academic edition of <i>Circulation</i>, the iSchool's student magazine.</p>
+                <h3><a href="http://theinformation.ischool.uw.edu/wp/2015/02/endless-love-the-illusion-of-unlimited-choice-in-online-dating/">Boundless Love, Endless Possibilities</a></h3>
+                <p>A paper I wrote for a class about why online dating is an information problem.  It was published in the Winter 2015 academic edition of <i><a href="//circulationmag.wordpress.com/current-issue/">Circulation</a></i>, the University of Washington iSchool's student magazine.  It was also featured on <i>The Information</i>, the official blog of the Information School.</p>
 
                 <h3><a href="https://ischool.uw.edu/feature-stories/san-francisco-zen-center-project-turns-five">Archiving at the San Francisco Zen Center</a></h3>
                 <p>I spent a month during Summer 2014 working as an archives intern at the San Francisco Zen Center with nine other UW students.  Our goal was to archive and digitize the Zen Center's historical documents.  We worked with the Bancroft Library at UC Berkeley where the Zen Center Collection will be housed.  To gain a better understanding of the organization, we lived and worked with the Zen Center community and followed Zen Buddhist practices.</p>
@@ -116,7 +116,7 @@
                 <header>
                     <h2>Around the Web</h2>
                 </header>
-                <p>I can also be found at the web services below</p>
+                <p>I can also be found at the web services below:</p>
                 <ul class="web-icons">
 {foreach from=$personal_web_links item=web_link}
                     <li class="icon {$web_link.glyph}"><a href="{$web_link.url}">{$web_link.display}</a></li>
