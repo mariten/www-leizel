@@ -2,7 +2,7 @@
 
 class Registry_PersonalWebLinks
 {
-    private static $leizel_web_links = array(
+    private static $PERSONAL_WEB_LINKS = array(
 
         'linkedin' => array(
             'glyph'    => 'fa-linkedin',
@@ -17,10 +17,11 @@ class Registry_PersonalWebLinks
         ),
     );
 
-    //{{{ getAsArray()
-    public static function getAsArray()
+
+    //{{{ get()
+    public static function get()
     {
-        return self::$leizel_web_links;
+        return self::$PERSONAL_WEB_LINKS;
     }
     //}}}
 }

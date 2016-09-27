@@ -2,11 +2,16 @@
 
 class ParamManager
 {
-    // All GET/POST HTTP request parameters
+    // All GET/POST as well as path request params
     protected $all_params = array();
 
     // Holder for sanitized versions of specified parameters
     protected $sanitized_params = array();
+
+    // Definitions for path params
+    protected static $PATH_PARAM_RULES = array(
+        'album_name'        => 'photography\/samples\/([A-Za-z0-9_\- ]+)',
+    );
 
 
     function __construct()
@@ -14,6 +19,16 @@ class ParamManager
         // Record all params from GET/POST requests in parameter store array
         foreach($_REQUEST as $param_key => $param_value) {
             $this->all_params[$param_key] = $param_value;
+        }
+
+        // Record all params found in the path
+        $url_path = $this->getParam('url_path', '');
+        foreach(self::$PATH_PARAM_RULES as $param_key => $regex_pattern) {
+            $pattern_matches = array();
+            $has_matches = preg_match('/' . $regex_pattern . '/', $url_path, $pattern_matches);
+            if($has_matches === 1) {
+                $this->all_params[$param_key] = $pattern_matches[1];
+            }
         }
     }
 
@@ -28,6 +43,14 @@ class ParamManager
         }
 
         return $this->sanitized_params[$param_key];
+    }
+    //}}}
+
+
+    //{{{ getSanitizedParams()
+    public function getSanitizedParams()
+    {
+        return $this->sanitized_params;
     }
     //}}}
 

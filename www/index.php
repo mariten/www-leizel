@@ -1,6 +1,7 @@
 <?php
 // Load Global Defines
 require_once dirname(__FILE__) . '/../config/defines.php';
+require_once LEIZEL_BASE_DIR . 'config/routes.php';
 
 // Init Parameter Manager
 require_once LEIZEL_BASE_DIR . 'app/model/ParamManager.php';
@@ -12,27 +13,27 @@ require_once LEIZEL_BASE_DIR . 'app/controller/Controller.php';
 // Check URL path
 $url_path = $param_manager->getParam('url_path', '');
 
-// Determine course of action based on URL path
-$action = null;
-switch($url_path) {
+// Determine which action to instantiate
+$action = getMatchingController($url_path);
+if(is_null($action)) {
+    // No matching action - HTTP 404
+    require_once LEIZEL_BASE_DIR . 'app/controller/error/NotFound.php';
+    $action = new Error_NotFound();
+}
 
-case '':
-    require_once LEIZEL_BASE_DIR . 'app/controller/page/Astral.php';
-    $action = new Page_Astral();
-    break;
-
-default:
-    // Invalid path, show 404 page
-    echo('404');
-    exit;
-    break;
+// Check input params based on action
+$action->init($param_manager);
+$error_messages = $action->loadParams();
+if(!empty($error_messages)) {
+    // Param error - HTTP 400
+    $action->httpBadRequest();
 }
 
 // Execute action
-$action->init($url_path);
-$error_messages = $action->checkParams($param_manager);
-if(empty($error_messages)) {
+try {
     $action->perform();
-} else {
-    echo('Error');
+}
+catch (Exception $ex) {
+    // Unanticipated exception - HTTP 500
+    $action->httpInternalServerError();
 }
