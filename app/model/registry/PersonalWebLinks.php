@@ -10,6 +10,12 @@ class Registry_PersonalWebLinks
             'url'      => 'https://www.linkedin.com/pub/leizel-jackson-case/4b/a5a/2a9',
         ),
 
+        'instagram' => array(
+            'glyph'    => 'fa-instagram',
+            'display'  => 'toshocat',
+            'url'      => 'https://www.instagram.com/toshocat/',
+        ),
+
         'twitter' => array(
             'glyph'    => 'fa-twitter',
             'display'  => '@3koneko3',
