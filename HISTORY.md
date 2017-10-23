@@ -1,3 +1,12 @@
+v1.1.0 :: Oct 22 2017
+======================
+* Belated text update, focus on employment at SJPL
+    * Change job title on main page
+    * Update work history to focus on San Jose work, not grad school
+    * Rewrite bio, and remove statement about currently living in Tokyo
+* Add Instagram link
+
+
 v1.0.0 :: Feb 13 2015
 ======================
 * Added final draft of content for initial version of page
